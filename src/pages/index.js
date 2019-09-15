@@ -27,7 +27,7 @@ export default ({ data }) => {
 
       <div>
         <h1>Aevi Thoughts</h1>
-        <h4>{totalCount}</h4>
+        <h4>{totalCount} Posts</h4>
         {
           edges.map(({node}) => (
             <div key={node.id}>
